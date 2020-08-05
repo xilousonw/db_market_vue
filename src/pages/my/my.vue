@@ -49,8 +49,8 @@
 			}
 		},
 		mounted() {
-			
-		},		
+
+		},
 		methods: {
 			getData(){
 				axios.get('/mock/products/products.json').then((response)=>{
@@ -74,7 +74,7 @@
 						this.busy = true;
 						this.tips = true;
 						this.loading = false;
-					}	
+					}
 				})
 			},
 		    loadMore() {
@@ -83,7 +83,7 @@
 		      	setTimeout(() => {
 			        this.getData();
 			    }, 1000);
-		      	
+
 		    }
 		},
 		components: {

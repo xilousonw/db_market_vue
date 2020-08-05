@@ -7,7 +7,7 @@
 			<div class="login_entry">
 				<p class="login_tip2">登录豆瓣账号后，可以进行订单查询，使用优惠券</p>
 				<a href="#/login" class="btn_login">登录</a>
-				<p class="btn_regist">没有豆瓣账号?<a href="#">注册</a></p>
+				<p class="btn_regist">没有豆瓣账号?<a href="#/register">注册</a></p>
 			</div>
 			<div class="anonymous">
 				<p>使用匿名购买，则可以点击以下链接查询订单</p>
